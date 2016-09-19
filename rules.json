@@ -1,0 +1,13 @@
+// This is the set of rules used to calculate payments for people.
+// Each rule has:
+// applicableWeeks - the number of weeks from the date of injury this level of payment is used at
+// percentagePayable - what percentage of an employee's qualifiying wage is due back to the employee
+// overtimeIncluded - whether overtime hours are part of the qualifying wage
+
+{"rules":[
+    {"applicableWeeks": "1-26", "percentagePayable": 90, "overtimeIncluded": true},
+    {"applicableWeeks": "26-52", "percentagePayable": 80, "overtimeIncluded": true},
+    {"applicableWeeks": "53-79", "percentagePayable": 70, "overtimeIncluded": true},
+    {"applicableWeeks": "80-104", "percentagePayable": 60, "overtimeIncluded": false},
+    {"applicableWeeks": "104+", "percentagePayable": 10, "overtimeIncluded": false},
+]}
