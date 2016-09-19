@@ -20,6 +20,25 @@ There's a sliding scale of payments based on how long you've been injured, and h
 
 We picked this problem because it's indicative of life at Donesafe, there's some number crunching but a lot of this is helping people navigate a complex problem.  Our users are usually not developers, in many cases they don't see computers as a big part of their job.  So if you're thinking about interface think about what's a good way to talk to people who aren't likely to be comfortable around computers.
 
+## File Structure
+### people.json
+This is the list of people who need workers compensation payments.
+Each person has:
+* name - the employee's name
+* hourlyRate - how much they are paid per hour
+* overtimeRate - how much they are paid per overtime hour
+* normalHours - the number of hours per week they usually work
+* overtimeHours - the number of hours they get paid overtime for
+* injuryDate - when they were injured
+
+### rules.json
+This is the set of rules used to calculate payments for people.
+Each rule has:
+* applicableWeeks - the number of weeks from the date of injury this level of payment is used at
+* percentagePayable - what percentage of an employee's qualifiying wage is due back to the employee
+* overtimeIncluded - whether overtime hours are part of the qualifying wage
+
+
 ## The tasks
 There are a few choices here so you can choose which one to do, but you'll need to do at least one 🙂
 
