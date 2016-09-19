@@ -17,7 +17,7 @@ We picked this problem because it's indicative of life at Donesafe, there's some
 ## The tasks
 There's a few to chose from here so you can choose, but clearly you need to do at least one :)
 
-* How much do each of the injured people in injuries need to paid this week?
+* How much do each of the injured people in people.json need to paid this week?
 * Can you calculate and list their payments from each of their injuries over time?
 * One of these people going to get significantly less than the others, can you a) work out who it is? and b) imagine they don't know and prepare a notification to send them?
 
