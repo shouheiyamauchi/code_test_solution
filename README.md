@@ -11,7 +11,7 @@
 - There were 2 overlapping weeks in the original rules.json on lines 2 and 6, so an updated version, rules_v2.json was used for the sample
 
 ```
-ruby print_payments.rb
+$ ruby print_payments.rb
 ```
 
 ## Testing
